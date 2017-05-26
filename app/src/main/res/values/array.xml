@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_filter_options">
+        <item>@string/pref_filter_label_restaurant</item>
+        <item>@string/pref_filter_label_gas_station</item>
+        <item>@string/pref_filter_label_clothes</item>
+    </string-array>
+
+    <string-array name="pref_filter_values">
+        <item>@string/pref_filter_restaurant</item>
+        <item>@string/pref_filter_gas_station</item>
+        <item>@string/pref_filter_clothes</item>
+    </string-array>
+</resources>

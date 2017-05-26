@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="com.example.android.socialads.ui.detail.DetailActivity.">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18dp"
+            android:textColor="#d3d3d3"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/place_name"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/place_rate"
+            style="@style/customRatingBar"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="offer"
+            android:textSize="18dp"
+            android:textColor="#d3d3d3"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/place_name"
+            android:id="@+id/offer"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_below="@id/place_rate"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/review"
+                android:textSize="18dp"
+                android:textColor="#d3d3d3"
+                android:text="Reviews"/>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_review"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

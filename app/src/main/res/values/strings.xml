@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Social Ads</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="pref_filter_label">Filtered By</string>
+    <string name="pref_filter_key">filter</string>
+    <string name="pref_filter_default">restaurant</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="show_offer">Check offers</string>
+    <string name="pref_filter_restaurant">restaurant</string>
+    <string name="pref_filter_gas_station">gas_station</string>
+    <string name="pref_filter_label_restaurant">restaurant</string>
+    <string name="pref_filter_label_gas_station">gas_station</string>
+    <string name="pref_filter_clothes">clothing_store</string>
+    <string name="pref_filter_label_clothes">clothing_store</string>
+</resources>

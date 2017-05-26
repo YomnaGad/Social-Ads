@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d3d3d3"
+    tools:context="com.example.android.socialads.ui.offers.ActivityOffers">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_offer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+</RelativeLayout>
